@@ -1,16 +1,32 @@
-# news_app
+# Daily Dose
 
-A new Flutter project.
+A simple Flutter app that displays the latest top headlines from around the world. Built with a clean, minimal UI and powered by NewsAPI for real-time updates.
+
+## Demo Video
+
+## Features
+
+* Displays top headlines from NewsAPI
+* Tap on any news card to open the full article in browser
+* Clean and responsive UI with Flutter widgets
+* Swipe down to refresh the news list
+* Handles loading and error states gracefully
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Ensure you have the following installed:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* [Flutter SDK](https://flutter.dev/docs/get-started/install)
+* [Android Studio](https://developer.android.com/studio) with Flutter and Dart plugins
+* A free [NewsAPI key](https://newsapi.org/)
+* An Android device or emulator for testing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### How to Run the App
+
+1. **Clone or download this repository** to your local machine:
+
+   ```bash
+   git clone https://github.com/Dhineshkumarprakasam/news_app.git
+   cd news_app
